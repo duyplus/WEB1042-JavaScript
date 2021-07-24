@@ -1,0 +1,1000 @@
+{
+  "data": [
+    {
+      "_id": "604dc9b1180c700bbe36395c",
+      "subjectId": "WEB1042",
+      "__v": 0,
+      "quizzes": [
+        {
+          "ques": "JavaScript hồi đáp lại tương tác của người dùng khi nào?",
+          "ans": "Các phương án đều đúng"
+        },
+        {
+          "ques": "JavaScript có khả năng gì?",
+          "ans": "Điều khiển trình duyệt"
+        },
+        {
+          "ques": "Các tập tin JavaScript bên ngoài phải có thẻ <script>?",
+          "ans": "Sai"
+        },
+        {
+          "ques": "Lệnh nào được dùng để hiển thị dòng chữ  Hello World  trong 1 hộp thoại thông bá",
+          "ans": "alert(\"Hello World\");"
+        },
+        {
+          "ques": "Khi tạo các biến trong JavaScript, chúng ta bắt buộc phải khai báo kiểu dữ liệu ",
+          "ans": "Sai"
+        },
+        {
+          "ques": "JavaScript được đặc tả bởi tài liệu ECMAScript (hay ECMA-262), phiên bản mới nhấ",
+          "ans": "2009"
+        },
+        {
+          "ques": "Ban đầu, JavaScript do hãng công nghệ nào phát triển?",
+          "ans": "Netscape"
+        },
+        {
+          "ques": "Muốn liên kết HTML với một file JavaScript ta dùng dòng lệnh nào sau đây?",
+          "ans": "<script type=\"text/JavaScript\" src=\"myFunction.js\"></script>"
+        },
+        {
+          "ques": "JavaScript không có khả năng nào sau đây?",
+          "ans": "Kết nối trực tiếp đến database server và truy vấn dữ liệu"
+        },
+        {
+          "ques": "Để hiển thị một dòng thông báo trong hộp hội thoại đồng thời cung cấp một trường",
+          "ans": "Các phương án đều sai."
+        },
+        {
+          "ques": "Trong JavaScript, hàm eval() dùng để làm gì?",
+          "ans": "Đánh giá một biểu thức và trả giá trị của biểu thức hay giá trị undefined nếu không tính toán được biểu thức"
+        },
+        {
+          "ques": "Để truy xuất các thuộc tính của đối tượng, người ta dùng toán tử gì?",
+          "ans": "chấm (.)"
+        },
+        {
+          "ques": "Cho đoạn mã sau:var st =  Shakespeare written \\ To be or not to be \\   ;docume",
+          "ans": "Shakespeare written \"To be or not to be\""
+        },
+        {
+          "ques": "Toán tử typeof có ý nghĩa gì?",
+          "ans": "Trả về một chuỗi ký tự xác định kiểu dữ liệu của toán hạng"
+        },
+        {
+          "ques": "Phương thức  search  của đối tượng String có chức năng gì?",
+          "ans": "Tìm một chuỗi con, trả lại vị trí tìm được trong chuỗi dò tìm, nếu không tìm thấy trả về -1."
+        },
+        {
+          "ques": "Khi sử dụng chuỗi ký tự,  \\r  có nghĩa là gì?",
+          "ans": "Đưa con trỏ về đầu dòng"
+        },
+        {
+          "ques": "Cú pháp khai báo biến trong JavaScript theo kiểu cơ bản được viết như thế nào?",
+          "ans": "[var]tênBiến = giá trị;"
+        },
+        {
+          "ques": "Cú pháp khai báo biến trong JavaScript theo kiểu đối tượng được viết như thế nào",
+          "ans": "var tênBiến = new tênLớp();"
+        },
+        {
+          "ques": "Biểu thức x = (a++,c)*(b++,d) tương đương với biểu thức nào sau đây?",
+          "ans": "x = c*d"
+        },
+        {
+          "ques": "Lệnh gán x = x * y tương đương với lệnh nào sau đây?",
+          "ans": "x * = y;"
+        },
+        {
+          "ques": "Câu lệnh nào trong các câu sau đây sử dụng sai thẻ sự kiện?",
+          "ans": "<FORM onLoad=\"doSomething();\">"
+        },
+        {
+          "ques": "Đối tượng arguments có chức năng gì ?",
+          "ans": "Lưu trữ các thông tin về tập đối số của hàm"
+        },
+        {
+          "ques": "Hàm parseInt() dùng để làm gì?",
+          "ans": "Chuyển một chuỗi thành số nguyên"
+        },
+        {
+          "ques": "Cách nào sau đây là đúng để tạo ra 1 mảng trong JavaScript?",
+          "ans": "var txt = new Array(\"tim\",\"kim\",\"jim\")"
+        },
+        {
+          "ques": "Cú pháp lệnh trong JavaScript dùng để mở một cửa sổ mới có tên gọi là  w2 ?",
+          "ans": "w2=window.open(\"http://www.w3schools.com\");"
+        },
+        {
+          "ques": "Đoạn mã sau thực hiện điều gì?while (x<100) {   if (x<50)           b",
+          "ans": "Lặp cho đến khi x lớn hơn hoặc bằng 100. Tuy nhiên nếu giá trị x đưa vào vòng lặp nhỏ hơn 50, vòng lặp sẽ kết thúc"
+        },
+        {
+          "ques": "Lệnh break kết hợp với vòng for dùng để?",
+          "ans": "Thoát khỏi vòng lặp"
+        },
+        {
+          "ques": "Trong JavaScript, sự kiện OnMouseOver thực hiện khi nào?",
+          "ans": "Khi di chuyển con chuột vào một đối tượng trong form."
+        },
+        {
+          "ques": "Lệnh lặp for có dạng như thế nào?",
+          "ans": "For ( biến = Giá trị đầu, Điều kiện, Giá trị tăng)"
+        },
+        {
+          "ques": "Chương trình xử lý sự kiện nào không có sẵn trong đối tượng Document ?",
+          "ans": "onClick"
+        },
+        {
+          "ques": "Vòng lặp (Do.. while) là dạng vòng lặp?",
+          "ans": "Không xác định và lặp rồi mới xét điều kiện"
+        },
+        {
+          "ques": "Để lặp tất cả các thuộc tính (property) của một đối tượng, người ta sử dụng ?",
+          "ans": "lệnh for (<variable> in <object>) {}"
+        },
+        {
+          "ques": "Hàm isNaN(biểuThức) trả về giá trị nào?",
+          "ans": "Cả hai câu trên đều đúng"
+        },
+        {
+          "ques": "Trong JavaScript đoạn mã sau cho ra kết quả gì? <script> function kiemtr",
+          "ans": "Khi chạy thì một trang khác (VNN) được hiện ra"
+        },
+        {
+          "ques": "Vòng lặp While là dạng vòng lặp?",
+          "ans": "Không xác định và xét điều kiện rồi mới lặp"
+        },
+        {
+          "ques": "Trong JavaScript, sự kiện OnUnload thực hiện khi nào?",
+          "ans": "Khi kết thúc một chương trình"
+        },
+        {
+          "ques": "Cho khai báo: var arr = new Array(5);để truy xuất thuộc tính length của đối tượ",
+          "ans": "document.write(arr.length);"
+        },
+        {
+          "ques": "Để hiển thị trang tài liệu vừa mới duyệt gần đây nhất, người ta sử dụng câu lệnh",
+          "ans": "history.back();"
+        },
+        {
+          "ques": "Trong mô hình BOM, thuộc tính external của đối tượng window có chức năng gì?",
+          "ans": "Trả về host của trang web"
+        },
+        {
+          "ques": "Đối với đối tượng history, muốn đi đến trang kế tiếp, ta sử dụng phương thức nào",
+          "ans": "Forward()"
+        },
+        {
+          "ques": "Trừu tượng hóa trong lập trình hướng đối tượng được hiểu như thế nào?",
+          "ans": "Chỉ trình bày những đặc điểm cần thiết của vấn đề mà không trình bày chi tiết cụ thể hoặc giải thích tính phức tạp của vấn đề đó"
+        },
+        {
+          "ques": "Phương thức của lớp là gì?",
+          "ans": "Là một phương thức được triệu gọi mà không tham chiếu tới bất kỳ một đối tượng nào."
+        },
+        {
+          "ques": "Tính đóng gói trong lập trình hướng đối tượng được hiểu như thế nào?",
+          "ans": "Là tiến trình che giấu việc thực thi chi tiết của một đối tượng"
+        },
+        {
+          "ques": "Phương thức focus ngược với phương thức nào?",
+          "ans": "onBlur()"
+        },
+        {
+          "ques": "Người ta dùng phương thức nào để tăng giảm tọa độ đỉnh trên trái của cửa sổ với ",
+          "ans": "moveBy(m,n)"
+        },
+        {
+          "ques": "Thuộc tính nào giúp trả về màu của liên kết khi con trỏ đến?",
+          "ans": "alinkColor"
+        },
+        {
+          "ques": "Mô tả nào sau đây là sai khi nói về lập trình hướng đối tượng?",
+          "ans": "Lập trình hướng đối tượng không cho phép người lập trình tạo ra các ứng dụng mà các yếu tố bên ngoài có thể tương tác với các chương trình đó giống như là tương tác với các đối tượng vật lý."
+        },
+        {
+          "ques": "Từ khóa nào chỉ một giá trị vượt quá giới hạn xử lý của JavaScript?",
+          "ans": "Infinity"
+        },
+        {
+          "ques": "Cú pháp lệnh If với  i  không bằng 5 có dạng như thế nào",
+          "ans": "if (i != 5) {}"
+        },
+        {
+          "ques": "Trong JavaScript hàm parseInt() dùng để làm gì?",
+          "ans": "Chuyển một chuỗi thành số nguyên"
+        },
+        {
+          "ques": "Cách nào sau đây là đúng để làm tròn số 7.25 với giá trị nguyên gần nhất?",
+          "ans": "Math.round(7.25)"
+        },
+        {
+          "ques": "Sau khi thực hiện phép toán 15 >> 3, kết quả trả về là bao nhiêu?",
+          "ans": "1"
+        },
+        {
+          "ques": "Phép toán (7 >= 5) || (5 > 5) trả về giá trị nào?",
+          "ans": "True"
+        },
+        {
+          "ques": "Lệnh nào được sử dụng để gọi lại hàm có tên là  myFunction ?",
+          "ans": "myFunction();"
+        },
+        {
+          "ques": "Thuộc tính colorDepth của đối tượng screen cho biết điều gì?",
+          "ans": "Số bít dùng để thể hiện màu cho mỗi pixel"
+        },
+        {
+          "ques": "Thẻ <Frameset cols> </frameset>",
+          "ans": "Dùng để chia trang web ra nhiều phần theo cột"
+        },
+        {
+          "ques": "Khi dữ liệu được mã hóa và gửi đi, phía trang web nhận sẽ giải mã dữ liệu bằng h",
+          "ans": "decodeURI();"
+        },
+        {
+          "ques": "CSS là viết tắt của?",
+          "ans": "Cascading Style Sheets"
+        },
+        {
+          "ques": "Muốn liên kết xHTML với 1 file định nghĩa CSS ta dùng dòng nào sau đây?",
+          "ans": "<link rel=”stylesheet” type=”text/css” href=”mystyle.css”>"
+        },
+        {
+          "ques": "Để thay đổi màu nền của chữ (text), ta dùng thuộc tính nào?",
+          "ans": "color:"
+        },
+        {
+          "ques": "Người ta dùng thuộc tính nào để tạo chữ đậm?",
+          "ans": "font-weight:bold;"
+        },
+        {
+          "ques": "Dùng thuộc tính nào để thay đổi lề trái của một phần tử?",
+          "ans": "margin-left:"
+        },
+        {
+          "ques": "Cho biết kết quả sau khi thực hiện câu lệnh:  for(prop in navigator){ document.w",
+          "ans": "Hiển thị các thuộc tính của đối tượng navigator"
+        },
+        {
+          "ques": "Thẻ <Frame src=” duong dan ”> có chức năng gì?",
+          "ans": "Cả hai phương án đưa ra đều đúng"
+        },
+        {
+          "ques": "Đánh dấu ghi chú một dòng trong JavaScript?",
+          "ans": "//Đây là một dòng ghi chú"
+        },
+        {
+          "ques": "Cặp thẻ nào được sử dụng để đưa JavaScript vào file HTML?",
+          "ans": "<script></script>"
+        },
+        {
+          "ques": "Cú pháp lệnh trong JavaScript dùng để hiển thị dòng chữ  Welcome to you  là gì?",
+          "ans": "document.write (\"Welcome to you\");"
+        },
+        {
+          "ques": "Cách nào để viết chương trình JavaScript với file HTML?",
+          "ans": "Các phương án đều đúng"
+        },
+        {
+          "ques": "Mã JavaScript được đặt trong cặp thẻ nào?",
+          "ans": "<scritp> ...</script>"
+        },
+        {
+          "ques": "Tên file của các hàm JavaScript bên ngoài trang HTML cần có đuôi gì?",
+          "ans": ".js"
+        },
+        {
+          "ques": "Cặp thẻ nào dùng để chỉ định rõ nội dung thông báo cho người sử dụng biết trình ",
+          "ans": "<NOSCRIPT> và </NOSCRIPT>"
+        },
+        {
+          "ques": "Thẻ <input type=”Submit” ...> dùng để làm gì?",
+          "ans": "Tạo một nút lệnh dùng để gửi tin trong form đi"
+        },
+        {
+          "ques": "Thẻ <input type=”checkbox” ...> dùng để làm gì?",
+          "ans": "Tạo ra một nhóm các đối tượng và người dùng có thể được nhiều hơn một đối tượng"
+        },
+        {
+          "ques": "Để thiết lập giá trị cho một phần tử của form ta sử dụng cú pháp:",
+          "ans": "document.tên_Form.tên_Đốitượng.value=giá_tri"
+        },
+        {
+          "ques": "Phương thức reset có chức năng gì?",
+          "ans": "Thiết lập lại các giá trị của các trường dữ liệu của form"
+        },
+        {
+          "ques": "Thuộc tính method, action được dùng khi nào?",
+          "ans": "Khi gửi dữ liệu"
+        },
+        {
+          "ques": "Chức năng chính của form là gì?",
+          "ans": "Là phương tiện dùng tạo giao diện các ứng dụng phía client và submit dữ liệu đến server"
+        },
+        {
+          "ques": "Để chỉ định rõ kiểu phần tử trong form, người ta dùng thuộc tính nào?",
+          "ans": "Type"
+        },
+        {
+          "ques": "Phần tử nào cho phép người sử dụng gửi lên một file?",
+          "ans": "FileUpload"
+        },
+        {
+          "ques": "Phần tử nào cho phép người sử dụng nhập vào nhiều dòng?",
+          "ans": "TextArea"
+        },
+        {
+          "ques": "Phần tử có type là hidden không có thuộc tính nào sau đây?",
+          "ans": "defaulValue"
+        },
+        {
+          "ques": "Sự kiện onAbort() được sử dụng khi nào?",
+          "ans": "Khi người sử dụng gỡ bỏ việc nạp ảnh khi click vào một liên kết hay nút lệnh Stop"
+        },
+        {
+          "ques": "Thuộc tính innerHTML của đối tượng anchor có chức năng gì?",
+          "ans": "Xác định đoạn văn bản của thẻ <a> chứa liên kết"
+        },
+        {
+          "ques": "Dòng nào thể hiện đúng một comment (lời chú thích) trong CSS?",
+          "ans": "/* this is a comment */"
+        },
+        {
+          "ques": "Để hiển thị liên kết mà ko có gạch chân bên dưới, người ta dùng thuộc tính nào?",
+          "ans": "a {text-decoration:none}"
+        },
+        {
+          "ques": "Làm sao để thay đổi font của mỗi phần tử?",
+          "ans": "font="
+        },
+        {
+          "ques": "Khai báo hằng trong JavaScript theo cú pháp nào sau đây là đúng?",
+          "ans": "Trong JavaScript không có kiểu hằng số const"
+        },
+        {
+          "ques": "Để phân biệt kiểu dấu phẩy động với kiểu số nguyên, phải có ít nhất bao nhiêu ch",
+          "ans": "1"
+        },
+        {
+          "ques": "Có bao nhiêu phương pháp để tạo biểu thức quy tắc?",
+          "ans": "2"
+        },
+        {
+          "ques": "Phương thức indexOf(chuỗi con, chỉ số)  có chức năng gì?",
+          "ans": "Trả về vị trí xuất hiện lần đầu của chuỗi con trong một chuỗi bắt đầu tại vị trí chỉ số. Hàm trả về -1 nếu không tồn tại chuỗi con, ngược lại có giá trị >= 0"
+        },
+        {
+          "ques": "Người ta sử dụng phương thức nào để tìm giá trị số nguyên lớn gần nhất và lớn hơ",
+          "ans": "ceil(x)"
+        },
+        {
+          "ques": "Mô tả nào là đúng về hàm?",
+          "ans": "Các phương án đều đúng"
+        },
+        {
+          "ques": "Cho  a=99999999999999999;alert(isFinite(a))  trả về kết quả nào sau đây?",
+          "ans": "True"
+        },
+        {
+          "ques": "Lệnh nào được sử dụng để thiết lập đối tượng ngầm định cho một nhóm các lệnh, có",
+          "ans": "lệnh with (object) {}"
+        },
+        {
+          "ques": "Trong JavaScript, sự kiện Onblur thực hiện khi nào?",
+          "ans": "Khi một đối tượng trong form mất focus."
+        },
+        {
+          "ques": "Thẻ <input type=”text” ...> dùng để làm gì?",
+          "ans": "Tạo một ô text để nhập dữ liệu"
+        },
+        {
+          "ques": "Thẻ <input type=”Radio” ...> dùng để làm gì?",
+          "ans": "Tạo một nhóm đối tượng chọn nhưng chọn duy nhất"
+        },
+        {
+          "ques": "Thuộc tính nào dùng để xác định đường viền là đường gạch ngang cho phần tử?",
+          "ans": "border: dashed;"
+        },
+        {
+          "ques": "Thuộc tính nào định nghĩa CSS ngay trong 1 tag?",
+          "ans": "Style"
+        },
+        {
+          "ques": "Dòng nào tuân theo đúng cú pháp của CSS?",
+          "ans": "body {color: black}"
+        },
+        {
+          "ques": "Thuộc tính nào dùng để thay đổi màu nền của trang Web?",
+          "ans": "background-color:"
+        },
+        {
+          "ques": "Làm thế nào thêm màu nền cho tất cả các phần tử <h1> ?",
+          "ans": "h1 {background-color:#FFFFFF}"
+        },
+        {
+          "ques": "Cú pháp lệnh vòng lặp FOR có dạng như thế nào?",
+          "ans": "for (i = 0; i <= 5; i++) {}"
+        },
+        {
+          "ques": "Trong JavaScript, sự kiện Onload thực hiện khi:",
+          "ans": "Khi bắt đầu chương trình chạy"
+        },
+        {
+          "ques": "Trong JavaScript, sự kiện Onclick thực hiện khi nào?",
+          "ans": "Khi click chuột vào một đối tượng trong form."
+        },
+        {
+          "ques": "Thẻ <input type=”Password” ...> dùng để làm gì?",
+          "ans": "Tạo một ô password"
+        },
+        {
+          "ques": "Cho x= 1.0 ; alert(isNaN(x)) ;kết quả trả về sẽ là:",
+          "ans": "False"
+        },
+        {
+          "ques": "Cú pháp lệnh dùng để tìm được tên trình duyệt của máy khách (client)?",
+          "ans": "navigator.appName"
+        },
+        {
+          "ques": "Để thay đổi màu nền trang web, người ta sử dụng câu lệnh nào?",
+          "ans": "document.body.setAttribute(\"bgColor\",\"white\");"
+        },
+        {
+          "ques": "Đặt dòng liên kết với file CSS ở vùng nào trong file xHTML?",
+          "ans": "Trong phần thẻ  <head>"
+        },
+        {
+          "ques": "Thuộc tính nào thay đổi kích cỡ chữ?",
+          "ans": "font-size"
+        },
+        {
+          "ques": "Hàm blind() trong jQuery có tác dụng gì?",
+          "ans": "Bắt các sự kiện của các thẻ html"
+        },
+        {
+          "ques": "Sự kiện hover() trong jQuery có tác dụng gì?",
+          "ans": "Xử lý 2 sự kiện đưa chuột vào và kéo chuột ra khỏi các phần tử html"
+        },
+        {
+          "ques": "Sự kiện live() trong jQuery có tác dụng gì?",
+          "ans": "Xử lý tất cả các sự kiện hiện hành"
+        },
+        {
+          "ques": "Hiệu ứng .fadeIn() trong thư viện jQuery có tác dụng gì?",
+          "ans": "Cho phép các phần tử trong tag hiện một cách từ từ biến thiên theo thời gian đã được thiết lập"
+        },
+        {
+          "ques": "Hiệu ứng nào có tác dụng làm vô hiệu hóa tất cả các chuyển động?",
+          "ans": "jQuery.fx.off"
+        },
+        {
+          "ques": "Trong jQuery, để hiển thị các phần tử html theo thời gian, người ta dùng hiệu ứn",
+          "ans": ".show()"
+        },
+        {
+          "ques": "jQuery không thể làm được gì?",
+          "ans": "Các phương án đều sai"
+        },
+        {
+          "ques": "Để chọn tất cả các phần tử <a> với giá trị thuộc tính chứa “# “, người t",
+          "ans": "$(“a[href*=’#’]”)"
+        },
+        {
+          "ques": "Trong jQuery, cú pháp lệnh dùng để chọn phần tử <p> thứ 2 trong tài liệu",
+          "ans": "$(”p:2”)"
+        },
+        {
+          "ques": "Hiệu ứng nào trong jQuuery được dùng để ẩn, hiện và thay đổi trạng thái?",
+          "ans": "Hide, Show và Toggle"
+        },
+        {
+          "ques": "Một phần tử có kiểu dấu phẩy động có bao nhiêu thành phần?",
+          "ans": "4"
+        },
+        {
+          "ques": "Cú pháp lệnh If với  i  bằng 5 được viết như thế nào?",
+          "ans": "if (i==5) {}"
+        },
+        {
+          "ques": "Trong JavaScript, số nguyên có thể được biểu diễn theo mấy cách?",
+          "ans": "3 cách"
+        },
+        {
+          "ques": "Quá trình tiến hóa của Lập trình hướng đối tượng theo thứ tự nào?",
+          "ans": "Lập trình tuyến tính -> Lập trình có cấu trúc -> Sự trừu tượng hóa dữ liệu -> Lập trình hướng đối tượng"
+        },
+        {
+          "ques": "Trình duyệt Firefox (FF), phiên bản 8 không hỗ trợ thuộc tính nào?",
+          "ans": "Các phương án đều đúng"
+        },
+        {
+          "ques": "Một biến có kiểu là Array thì có thể được xem là 1 đối tượng không",
+          "ans": "Có"
+        },
+        {
+          "ques": "Đối tượng con nào của đối tượng window  chứa những URL đã được truy cập",
+          "ans": "history"
+        },
+        {
+          "ques": "Đối tượng window là đối tượng chứa đối tượng document bên trong nó?",
+          "ans": "Đúng"
+        },
+        {
+          "ques": "Mô tả nào sau đây là sai ?",
+          "ans": "Đối tượng form thể hiện cửa số của trình duyệt"
+        },
+        {
+          "ques": "Thuộc tính target diễn tả điều gì?",
+          "ans": "Đối tượng mà sự kiện diễn ra trong đó"
+        },
+        {
+          "ques": "Phương thức nào thực hiện câu lệnh JavaScript một lần sau một thời gian nhất địn",
+          "ans": "setTimeout(câu lệnh JavaScript, số milli giây)"
+        },
+        {
+          "ques": "Hiệu ứng .fadeOut() trong thư viện jQuery có tác dụng gì?",
+          "ans": "Cho phép các phần tử trong tag ẩn một cách từ từ biến thiên theo thời gian đã được thiết lập"
+        },
+        {
+          "ques": "Hiệu ứng nào được sử dụng để điều chỉnh độ mờ của các phần tử trong jQuery?",
+          "ans": ".fadeTo()"
+        },
+        {
+          "ques": "Hàm bind() được sử dụng với cú pháp nào sau đây là đúng?",
+          "ans": "$(selector).bind(event, data, handler)"
+        },
+        {
+          "ques": "Có bao nhiêu cách để xử lý sự kiện cho các element trong jQuery?",
+          "ans": "2"
+        },
+        {
+          "ques": "Mô tả nào sau đây về jQuery là sai?",
+          "ans": "jQuery có thể lấy thông tin từ server và phải tải lại trang web"
+        },
+        {
+          "ques": "Trong jQuery, phương thức nextAll() có ý nghĩa gì?",
+          "ans": "Chọn tất cả các phần tử nằm kế sau nó"
+        },
+        {
+          "ques": "Cú pháp nào sau đây là đúng khi chọn tất cả các phần tử có tên lớp là link?",
+          "ans": "$(\".link\")"
+        },
+        {
+          "ques": "Chọn phát biểu đúng?",
+          "ans": "JavaScript là một ngôn ngữ lập trình kịch bản, chạy theo chế độ thông dịch, trong phạm vi web client và bên trong môi trường trình duyệt"
+        },
+        {
+          "ques": "JavaScript có giống với Java không?",
+          "ans": "Không"
+        },
+        {
+          "ques": "JavaScript được khởi đầu từ ngôn ngữ lập trình nào?",
+          "ans": "LiveScript"
+        },
+        {
+          "ques": "Có bao nhiêu cách để nhúng file JavaScript vào một file HTML?",
+          "ans": "4"
+        },
+        {
+          "ques": "Chọn mô tả đúng về JavaScript",
+          "ans": "Các phương án đều đúng"
+        },
+        {
+          "ques": "ng-app thường được đặt trong thẻ nào?",
+          "ans": "Body"
+        },
+        {
+          "ques": "$scope có ý nghĩa gì?",
+          "ans": "Phân biệt thành phần do AngularJS tạo ra"
+        },
+        {
+          "ques": "Khi sử dụng AngularJS, kết quả hiển thị sẽ như thế nào?",
+          "ans": "được cập nhật ngay mà không cần reload"
+        },
+        {
+          "ques": "FireBase là CSDL có tính năng gì?",
+          "ans": "online, realtime"
+        },
+        {
+          "ques": "Để truy cập dữ liệu trong FireBase, ta dùng cú pháp nào?",
+          "ans": "var myDataRef = new Firebase('đường dẫn DB');"
+        },
+        {
+          "ques": "Để ghi dữ liệu trong FireBase, ta dùng cú pháp nào?",
+          "ans": "myDataRef.set('dữ liệu');"
+        },
+        {
+          "ques": "Node.js là gì?",
+          "ans": "một platform"
+        },
+        {
+          "ques": "Bootstrap là framework dùng kết hợp với ngôn ngữ nào?",
+          "ans": "Jquery"
+        },
+        {
+          "ques": "AngularJS là framework có kiểu mã nguồn nào?",
+          "ans": "Mã nguồn mở"
+        },
+        {
+          "ques": "Để cài đặt FireBase, ta đưa dòng code:  vào phần nào?",
+          "ans": "Head"
+        },
+        {
+          "ques": "Phương thức chuyển kiểu dữ liệu ngày tháng sang chuỗi ký tự là:",
+          "ans": "cả 2 đều đúng"
+        },
+        {
+          "ques": "jQuery được khởi xướng vào năm nào?",
+          "ans": "2006"
+        },
+        {
+          "ques": "Hiệu ứng nào trong jQuery thiết lập thời gian cho chuyển động?",
+          "ans": "jQuery.fx.interval"
+        },
+        {
+          "ques": "Trong jQuery, thuộc tính nào có tác dụng nhận giá trị phần tử đầu tiên trong tập",
+          "ans": ".attr()"
+        },
+        {
+          "ques": "Trong cú pháp $(selector).action(); $  có ý nghĩa gì?",
+          "ans": "Chỉ ra việc sử dụng thư viện jQuery"
+        },
+        {
+          "ques": "Để chọn tất cả các phần tử <a> với giá trị thuộc tính bắt đầu bằng “# “,",
+          "ans": "$(“a[href^=’#’]”)"
+        },
+        {
+          "ques": "jQuery có ưu điểm gì?",
+          "ans": "Các phương án đều đúng"
+        },
+        {
+          "ques": "Thuộc tính nào làm chữ trong tag p trở thành chữ đậm?",
+          "ans": "p {font-weight:bold}"
+        },
+        {
+          "ques": "Làm sao để mỗi từ trong 1 dòng đều viết hoa ở đầu từ?",
+          "ans": "text-transform:capitalize"
+        },
+        {
+          "ques": "Thuộc tính vlinkColor của đối tượng document trả về kết quả nào ?",
+          "ans": "Màu của liên kết đã kích hoạt"
+        },
+        {
+          "ques": "Thuộc tính appCodeName của đối tượng navigator chứa thông tin gì?",
+          "ans": "Tên mã của trình duyệt"
+        },
+        {
+          "ques": "Trong lập trình hướng đối tượng, sự trừu tượng hóa được hiểu là:",
+          "ans": "Các phương án đều đúng"
+        },
+        {
+          "ques": "Đối tượng navigator chứa những thông tin gì ?",
+          "ans": "Các thông tin về trình duyệt: tên, phiên bản, tên mã, ngôn ngữ thể hiện, hệ điều hành…"
+        },
+        {
+          "ques": "Đối tượng document chứa những thông tin gì ?",
+          "ans": "Các tư liệu của cửa sổ, tất cả phần tử HTML của trang web trong cửa sổ đó"
+        },
+        {
+          "ques": "Đối tượng quan trọng nhất của BOM là gì?",
+          "ans": "Document"
+        },
+        {
+          "ques": "Sự kiện nào không được kết hợp với đối tượng window ?",
+          "ans": "onClick"
+        },
+        {
+          "ques": "Phương thức onAbort() chỉ áp dụng cho phần tử nào?",
+          "ans": "Image"
+        },
+        {
+          "ques": "Để truy xuất một phần tử của form ta sử dụng cú pháp:",
+          "ans": "Các phương án đều đúng"
+        },
+        {
+          "ques": "Thuộc tính tableIndex của phần tử textbox có tác dụng gì?",
+          "ans": "Thiết lập thứ tự nhận tiêu điểm"
+        },
+        {
+          "ques": "Để truy cập một phần tử option, ta sử dụng tập forms với cú pháp nào?",
+          "ans": "document.forms.name_form.name_select.options[i];"
+        },
+        {
+          "ques": "Phương thức getElementById(id of element) có chức năng gì?",
+          "ans": "Trả về đối tượng là một phần tử HTML có id xác định"
+        },
+        {
+          "ques": "Sự kiện nào không áp dụng cho phần tử select box ?",
+          "ans": "onClick"
+        },
+        {
+          "ques": "Sau khi dữ liệu được mã hóa và gửi đi, phía trang web nhận sẽ đón nhận dữ liệu b",
+          "ans": "location.search"
+        },
+        {
+          "ques": "Để gửi hai dữ liệu  Nguyen Van A  và  44  đến trang web receiveInfo.htm, người t",
+          "ans": "<a href=\"receiveInfo.htm?name=Nguyen Van A &age=44\"> Send data</a>"
+        },
+        {
+          "ques": "Muốn truy cập đến tập các phần tử HTML có cùng thuộc tính name hay có cùng thẻ, ",
+          "ans": "Các phương án đều đúng"
+        },
+        {
+          "ques": "FrameWork nào hỗ trợ JavaScript?",
+          "ans": "AngularJS"
+        },
+        {
+          "ques": "ng-controller có ý nghĩa gì?",
+          "ans": "Mỗi controller có nhiệm vụ quản lý những model bên trong nó"
+        },
+        {
+          "ques": "Ưu điểm của framework Ember là gì?",
+          "ans": "Phát triển ứng dụng MVC"
+        },
+        {
+          "ques": "FrameWork D3 là viết tắt của cụm từ nào?",
+          "ans": "Data-Driven Documents"
+        },
+        {
+          "ques": "AngularJS là framework của công ty nào?",
+          "ans": "Google"
+        },
+        {
+          "ques": "Cách khai báo nào đúng cho AngularJS",
+          "ans": "{{data}}"
+        },
+        {
+          "ques": "Enyo là một framework hỗ trợ gì?",
+          "ans": "Hỗ trợ Hướng đối tượng"
+        },
+        {
+          "ques": "Để hình ở đầu mỗi dòng của 1 list (danh sách) có hình vuông, người ta sử dụng th",
+          "ans": "list-type: square;"
+        },
+        {
+          "ques": "Hiệu ứng animate() trong thư viện jQuery có tác dụng gì?",
+          "ans": "Thực hiện một tùy biến chuyển động của tập hợp các thuộc tính CSS"
+        },
+        {
+          "ques": "Trang web nào hỗ trợ chạy code JavaScript trực tuyến?",
+          "ans": "jsfiddle.net"
+        },
+        {
+          "ques": "ng-app có ý nghĩa gì?",
+          "ans": "Chỉ cho AngularJS biết ứng dụng bắt đầu từ đâu"
+        },
+        {
+          "ques": "Ưu điểm của framework Emscripten là gì?",
+          "ans": "Chuyển đổi C++ thành asm.js"
+        },
+        {
+          "ques": "Sự kiện nào được kích hoạt sau khi trình duyệt đã tải xong tư liệu HTML , applet",
+          "ans": "onLoad();"
+        },
+        {
+          "ques": "Thẻ <textarea rows= cols = ...></texterea> dùng để làm gì?",
+          "ans": "Tạo một vùng nhập văn bản nhiều cột nhiều dòng"
+        },
+        {
+          "ques": "Theo phương pháp GET, có bao nhiêu cách để truyền thông dữ liệu giữa các trang w",
+          "ans": "3"
+        },
+        {
+          "ques": "Hai kiểu  đặc biệt của phần tử button có kiểu là:",
+          "ans": "reset và submit"
+        },
+        {
+          "ques": "Phần tử Radio button không chứa sự kiện nào sau đây?",
+          "ans": "onLoad"
+        },
+        {
+          "ques": "Đối tượng nào đại diện cho phần tử <a> trên tư liệu HTML?",
+          "ans": "anchor"
+        },
+        {
+          "ques": "Trong cấu trúc form, đa số các phần tử được đặt trong cặp thẻ nào?",
+          "ans": "<input>…</input>"
+        },
+        {
+          "ques": "Trong jQuery, hàm nào được cung cấp để duyệt qua một nhóm các phần tử được chọn?",
+          "ans": ".each()"
+        },
+        {
+          "ques": "Cú pháp truy cập đến phần tử <a> có id là linkID?",
+          "ans": "$(\"a#linkID\")"
+        },
+        {
+          "ques": "Trong phần tử textbox, để thiết lập phím tắt (Alt + phím), người ta sử dụng thuộ",
+          "ans": "accesskey"
+        },
+        {
+          "ques": "Trong việc truyền thông dữ liệu giữa các trang web, phương pháp POST có chức năn",
+          "ans": "gởi dữ liệu theo giao thức HTTP đến webserver và mã hóa dữ liệu để gửi đi"
+        },
+        {
+          "ques": "Form được tạo bởi các phần tử cho phép người sử dụng đưa thông tin vào. Khi đó, ",
+          "ans": "Common Gateway Interface"
+        },
+        {
+          "ques": "Trong jQuery, thuộc tính nào có tác dụng nhận giá trị hiện tại của tag html?",
+          "ans": ".val()"
+        },
+        {
+          "ques": "jQuery hỗ trợ phương thức nào để tạo menu chồng nhau?",
+          "ans": "Accordion()"
+        },
+        {
+          "ques": "Cú pháp nào lệnh dùng để tìm giá trị cao nhất của x và y?",
+          "ans": "Math.max(x,y)"
+        },
+        {
+          "ques": "Thuộc tính method trong đối tượng form có tác dụng gì ?",
+          "ans": "Thiết lập/Trả về phương thức HTTP để submit một form"
+        },
+        {
+          "ques": "Thuộc tính value của phần tử checkbox cho biết điều gì?",
+          "ans": "Cho biết giá trị hiện thời của phần tử được chỉ định trong thẻ input"
+        },
+        {
+          "ques": "Để chọn tất cả các phần tử <a> với giá trị thuộc tính kết thúc bằng “# “",
+          "ans": "$(“a[href$=’#’]”)"
+        },
+        {
+          "ques": "Cú pháp nào sau đây là đúng khi chọn tất cả các phần tử div trên trang?",
+          "ans": "$(\"div\")"
+        },
+        {
+          "ques": "Đánh dấu một khối (nhiều dòng) ghi chú trong JavaScript?",
+          "ans": "/*Ghi chú này có nhiều hơn 1 dòng*/"
+        },
+        {
+          "ques": "Đoạn code JavaScript được chèn ở đâu trong file HTML?",
+          "ans": "Cả phần <HEAD> và <BODY>"
+        },
+        {
+          "ques": "Lệnh prompt trong JavaScript để làm gì?",
+          "ans": "Hiển thị hộp thoại cho phép nhập dữ liệu"
+        },
+        {
+          "ques": "Hai Framework nào dựa trên JavaScript rất mạnh và được ứng dụng rộng rãi?",
+          "ans": "jQuery và ExtJS"
+        },
+        {
+          "ques": "Trong JavaScript, sự kiện Onchange thực hiện khi nào?",
+          "ans": "Xảy ra khi giá trị của một trường trong form được người dùng thay đổi"
+        },
+        {
+          "ques": "Phương thức comfirm trong đối tượng window có chức năng gì ?",
+          "ans": "Hiển thị một hộp hội thoại chứa một thông báo do một ứng dụng xác định và hai nút lệnh Yes, No"
+        },
+        {
+          "ques": "Mô tả nào sau đây là sai khi nói về đối tượng:",
+          "ans": "Đối tượng không thể chứa các đối tượng bên trong nó"
+        },
+        {
+          "ques": "Phương thức nào giúp trả về một phần tử với thẻ HTML xác định?",
+          "ans": "getElementByTagName"
+        },
+        {
+          "ques": "Đối tượng nào chứa  thông tin về URL hiện tại?",
+          "ans": "location"
+        },
+        {
+          "ques": "Cú pháp lệnh dùng để truy cập đến 1 file nguồn JavaScript có tên gọi  xxx.js  là",
+          "ans": "<script src=\"xxx.js\">"
+        },
+        {
+          "ques": "Thông thường, cách thức alert() được sử dụng trong các trường hợp nào?",
+          "ans": "Tất cả các trường hợp đã nêu"
+        },
+        {
+          "ques": "Lệnh nào được sử dụng để tạo ra 1 hàm trong JavaScript?",
+          "ans": "function myFunction()"
+        },
+        {
+          "ques": "Cú pháp lệnh vòng lặp WHILE có dạng như thế nào?",
+          "ans": "while (i<=10) {}"
+        },
+        {
+          "ques": "OOP (Lập trình hướng đối tượng) là viết tắt của từ nào?",
+          "ans": "Object Oriented Programming"
+        },
+        {
+          "ques": "Khi ngăn cách các từ trong JavaScript, người ta dùng:",
+          "ans": "dấu cách (space)"
+        },
+        {
+          "ques": "Trong JavaScript hàm parseFloat() dùng để làm gì?",
+          "ans": "Chuyển một chuỗi thành số thực"
+        },
+        {
+          "ques": "Khi tạo thuộc tính cho một đối tượng trong JavaScript thì bắt buộc phải khai báo",
+          "ans": "Sai"
+        },
+        {
+          "ques": "Làm thế nào để bạn xác định đúng 1 đoạn mã của JavaScript trong file HTML?",
+          "ans": "Sử dụng thẻ <SCRIPT> mở với thuộc tính type=\"text/JavaScript\""
+        },
+        {
+          "ques": "Cú pháp lệnh trong JavaScript dùng để mở một cửa sổ mới có tên gọi là...",
+          "ans": "w2=window.open(\"http://www.w3schools.com\");"
+        },
+        {
+          "ques": "Thẻ  <input type=”Radio” ...> dùng để làm gì?",
+          "ans": "Tạo một nhóm đối tượng chọn nhưng chọn duy nhất"
+        },
+        {
+          "ques": "Trong JavaScript đoạn mã sau cho ra kết quả gì?  <script>...",
+          "ans": "Khi chạy thì một trang khác (VNN) được hiện ra"
+        },
+        {
+          "ques": "Đoạn mã sau thực hiện điều gì? <br />while (x{ if (x...",
+          "ans": "Lặp cho đến khi x lớn hơn hoặc bằng 100. Tuy nhiên nếu giá trị x đưa vào vòng lặp nhỏ hơn 50, vòng lặp sẽ kết thúc"
+        },
+        {
+          "ques": "Để lặp tất cả các thuộc tính (property) của một đối tượng, người ta sử dụng ?",
+          "ans": "lệnh  for (<variable>  in  <object>) {}"
+        },
+        {
+          "ques": "Thẻ  <input type=”text” ...> dùng để làm gì?",
+          "ans": "Tạo một ô text để nhập dữ liệu"
+        },
+        {
+          "ques": "Phương thức nào thực hiện câu lệnh JavaScript một lần sau một thời gian nhất...",
+          "ans": "setTimeout(câu lệnh JavaScript, số milli giây)"
+        },
+        {
+          "ques": "Để hiển thị trang tài liệu vừa mới duyệt gần đây nhất, người ta sử dụng câu...",
+          "ans": "history.back();"
+        },
+        {
+          "ques": "Đối tượng nào chứa thông tin về URL hiện tại?",
+          "ans": "location"
+        },
+        {
+          "ques": "Cho x=\"1.0\";  <br />alert(isNaN(x)) ; <br...",
+          "ans": "false"
+        },
+        {
+          "ques": "Khi tạo thuộc tính cho một đối tượng trong JavaScript thì bắt buộc phải khai...",
+          "ans": "Sai"
+        },
+        {
+          "ques": "Người ta dùng phương thức nào để tăng giảm tọa độ đỉnh trên trái của cửa sổ...",
+          "ans": "moveBy(m,n)"
+        },
+        {
+          "ques": "Đối với đối tượng history, muốn đi đến trang kế tiếp, ta sử dụng phương thức...",
+          "ans": "Forward()"
+        },
+        {
+          "ques": "Các đối tượng nào chứa URL được truy cập bởi người dùng",
+          "ans": "history"
+        },
+        {
+          "ques": "Cho đoạn mã sau:<br />var st = \"Shakespeare written...",
+          "ans": "Shakespeare written \"To be or not to be\""
+        },
+        {
+          "ques": "Cú pháp khai báo biến trong JavaScript theo kiểu đối tượng được viết như thế...",
+          "ans": "var tênBiến = new tênLớp();"
+        },
+        {
+          "ques": "Người ta sử dụng phương thức nào để tìm giá trị số nguyên lớn gần nhất và lớn...",
+          "ans": "ceil(x)"
+        },
+        {
+          "ques": "Phương thức indexOf(chuỗi con, chỉ số) có chức năng gì?",
+          "ans": "Trả về vị trí xuất hiện lần đầu của chuỗi con trong một chuỗi bắt đầu tại vị trí chỉ số. Hàm trả về -1 nếu không tồn tại chuỗi con, ngược lại có giá trị >= 0"
+        },
+        {
+          "ques": "Để phân biệt kiểu dấu phẩy động với kiểu số nguyên, phải có ít nhất bao nhiêu...",
+          "ans": "1"
+        }
+      ],
+      "subjectName": "Lập trình cơ sở với Javascript"
+    }
+  ]
+}
