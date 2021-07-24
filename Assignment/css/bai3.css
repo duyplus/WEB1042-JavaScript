@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&subset=vietnamese&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(211, 201, 218);
+    background: linear-gradient(174deg, rgb(216, 156, 181) 0%, rgb(109, 129, 201) 100%);
+    color: #786fa4;
+    overflow-x: hidden;
+    font-size: 16px;
+}

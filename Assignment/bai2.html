@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Bài 2 - Assignment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <link rel="stylesheet" href="./css/bai2.css">
+</head>
+<body ng-app="myapp" ng-controller="hienthi">
+    <div class="container h-100vh p-3">
+        <div class="row justify-content-center">
+            <div class="col align-self-center">
+                <div class="card">
+                    <div class="card-header bg-info text-white d-flex text-center display-5">
+                        <a class="text-white">Đăng ký thành viên</a>
+                        <a class="text-white ml-auto icon" onclick="naplai()"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                    <div class="card-body">
+                        <form name="frm">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label class="title">Mã sinh viên</label>
+                                    <input ng-model="masv" type="text" name="masv" class="form-control" minlength="5" maxlength="30" required>
+                                    <em ng-show="frm.masv.$touched && frm.masv.$invalid" class="text-danger h6">Nhập mã sv từ 5 đến 15 ký tự!</em>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label class="title">Họ và tên</label>
+                                    <input ng-model="tensv" type="text" name="tensv" class="form-control" minlength="5" maxlength="30" required>
+                                    <em ng-show="frm.tensv.$touched && frm.tensv.$invalid" class="textdanger h6">Nhập họ tên sinh viên từ 10 đến 50 ký tự!</em>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label class="title">Email</label>
+                                    <input ng-model="email" type="email" name="email" class="form-control" required>
+                                    <em ng-show="frm.email.$touched && frm.email.$invalid" class="textdanger h6">Vui lòng nhập đúng email!</em>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label class="title">Giới tính</label><br>
+                                    <div class="btn btn-outline-light">
+                                        <div class="form-check form-check-inline">
+                                            <input ng-model="gender" class="form-check-input" type="radio" name="gender" value="1">
+                                            <label class="form-check-label">Nam</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input ng-model="gender" class="form-check-input" type="radio" name="gender" value="2">
+                                            <label class="form-check-label">Nữ</label>
+                                        </div>
+                                    </div>
+                                    <em ng-if="!gender" class="text-danger h6"><br>Bạn là Nam hay Nữ?</em>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label class="title">Sở thích</label><br>
+                                    <div class="btn btn-outline-light">
+                                        <div class="form-check form-check-inline">
+                                            <input ng-model="ds" class="form-check-input" type="checkbox" name="ds" value="1">
+                                            <label class="form-check-label">Đọc sách</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input ng-model="dl" class="form-check-input" type="checkbox" name="dl" value="2">
+                                            <label class="form-check-label">Du lịch</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input ng-model="an" class="form-check-input" type="checkbox" name="an" value="3">
+                                            <label class="form-check-label">Âm nhạc</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input ng-model="at" class="form-check-input" type="checkbox" name="at" value="4">
+                                            <label class="form-check-label">Ẩm thực</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input ng-model="khac" class="form-check-input" type="checkbox" name="khac" value="5">
+                                            <label class="form-check-label">Khác</label>
+                                        </div>
+                                    </div>
+                                    <em ng-if="!ds && !dl && !an && !at && !khac" class="textdanger h6"><br>Sở thích của bạn là gì?</em>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label class="title">Quốc gia</label>
+                                    <select ng-model="country" name="country" class="form-control">
+                                        <option value="0">Chọn quốc tịch</option>
+                                        <option value="1">Việt Nam</option>
+                                        <option value="2">Mỹ</option>
+                                        <option value="3">Anh</option>
+                                    </select>
+                                    <em ng-if="!country || country==0" class="text-danger h6">Bạn đang ở đâu thế?</em>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="title">Ghi chú</label>
+                                <textarea ng-model="ghichu" class="form-control" name="textarea" rows="3" placeholder="Nội dung..."></textarea>
+                                <em ng-if="!ghichu" class="text-danger h6">Bạn không có ghi chú gì hả?</em>
+                            </div>
+                            <button type="submit" class="button btn btn-primary btn-lg btn-block" onclick="return kiemtra()"><span>Đăng ký </span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bai2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

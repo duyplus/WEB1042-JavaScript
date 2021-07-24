@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&subset=vietnamese&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(198, 147, 233);
+    background: linear-gradient(174deg, rgb(222, 233, 214) 0%, rgb(204, 190, 143) 100%);
+    color: #786fa4;
+    overflow-x: hidden;
+    font-size: 14px;
+}
+.h-100vh {
+    height: 100vh !important;
+}
+.card {
+    margin: 0 auto;
+    max-width: 700px;
+    border: none;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+}
+@media only screen and (max-width: 767px) {
+    body {
+        padding-top: 20px;
+    }
+    .card {
+        width: 100%;
+    }
+}
+input[type="radio"], input[type="checkbox"], select {
+    cursor: pointer;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #FDFFFC !important;
+    border-color: #26A598 !important;
+    background-color: #26A598 !important;
+}
+.text-center {
+    color: #FDFFFC !important;
+    background-color: #52177A !important;
+}
+.btn-primary {
+    color: #FDFFFC;
+    background-color: #8D27D1;
+    border-color: #8D27D1;
+}
+.btn-primary:hover {
+    background-color: #a22dee;
+    border-color: #a22dee;
+}
+.btn-outline-light {
+    color: #212529;
+}
+.form-row{
+    margin-bottom: -5px;
+}
+.title{
+    font-weight: bolder;
+    font-size: 1.15em;
+    letter-spacing: 0.05em;
+}
+.display-5 {
+    font-size: 2.2em;
+}
+@media screen and (max-width: 400px) {
+    .display-5 {
+        font-size: 1.2em;
+    }
+}
+.icon {
+    font-size: 15px;
+    padding-left: 57%;
+    margin: auto;
+    cursor: pointer;
+}
+#code, #ten, #emailsv, #genders, #favs, #boxf, #textareas {
+    font-style: italic;
+    color: red;
+}
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
