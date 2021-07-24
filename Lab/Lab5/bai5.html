@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Hoàng Duy - PS18293</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bai5.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div style="color: aqua;">
+                <div class="head">TIỀN VÉ DU LỊCH HẠ LONG <span id="dongho">Hiện ngày</span></div>
+            </div>
+        </header>
+        <main>
+            <script src="js/bai5.js"></script>
+            <div class="container1">
+                <div class="row" style="font-weight: bold;">
+                    <div>Gia đình</div>
+                    <div>Số người lớn</div>
+                    <div>Số trẻ em</div>
+                    <div>Tiền</div>
+                </div>
+                <div class="row">
+                    <div>Đào kho Báu</div>
+                    <div class="nl" contenteditable="true" onkeyup="tien(this)">11</div>
+                    <div class="te" contenteditable="true" onkeyup="tien(this)">3</div>
+                    <div class="tien">SoTien</div>
+                </div>
+                <div class="row">
+                    <div>Đỗ đạt Cao</div>
+                    <div class="nl" contenteditable="true" onkeyup="tien(this)">22</div>
+                    <div class="te" contenteditable="true" onkeyup="tien(this)">2</div>
+                    <div class="tien">SoTien</div>
+                </div>
+                <div class="row">
+                    <div>Mai anh Tới</div>
+                    <div class="nl" contenteditable="true" onkeyup="tien(this)">33</div>
+                    <div class="te" contenteditable="true" onkeyup="tien(this)">4</div>
+                    <div class="tien">SoTien</div>
+                </div>
+                <div class="row">
+                    <div>Phạm kỷ Luật</div>
+                    <div class="nl" contenteditable="true" onkeyup="tien(this)">44</div>
+                    <div class="te" contenteditable="true" onkeyup="tien(this)">6</div>
+                    <div class="tien">SoTien</div>
+                </div>
+                <div class="row">
+                    <div>Mai anh Bảo</div>
+                    <div class="nl" contenteditable="true" onkeyup="tien(this)">55</div>
+                    <div class="te" contenteditable="true" onkeyup="tien(this)">7</div>
+                    <div class="tien">SoTien</div>
+                </div>
+                <footer class="row">
+                    <div>Tổng</div>
+                    <div class="tongnl"></div>
+                    <div class="tongte"></div>
+                    <div class="tongtien"></div>
+                </footer>
+                <div class="row">
+                    <button class="btn lab button1" onclick="tinhtien()" style="margin-right: 50px;">Tính</button>
+                    <button class="btn lab button1" onclick="anhien()">Ẩn Hiện</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="text">
+                <div style="font-size: 16px;">Nguyễn Hoàng Duy - PS18293</div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

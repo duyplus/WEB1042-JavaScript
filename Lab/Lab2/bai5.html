@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="text" style="text-align: center;"><div>Tính chu vi và diện tích hình tròn</div></div>
+        </header>
+        <main style="text-align: left;">
+            <script>
+                const pi = 3.14; //khai báo hằng
+                var r;
+                do{
+                    r = parseInt(prompt("Nhập bán kính:"));
+                    if(isNaN(r)==true){
+                        alert("Warning: Không được phép nhập chữ!");
+                    }
+                }while(isNaN(r)==true);
+                var cv = 2*r*pi; //tính chu vi
+                console.log("Bán kính:",cv);
+                var dt = Math.pow(r,2)*pi; //tính diện tích
+                console.log("Diện tích:",dt);
+            </script>
+            <div class="count">
+                <script>document.write("<p>Bán kính = <b>"+r+"</b></p>");</script>
+                <script>document.write("Chu vi hình tròn: <p><b>"+cv.toFixed(2)+"</b></p>");</script><br>
+                <script>document.write("Diện tích hình tròn: <p><b>"+dt.toFixed(2)+"</b></p>");</script>
+            </div>
+        </main>
+        <footer>
+            <span style="color: slategray;">Họ tên:</span> Nguyễn Hoàng Duy<br>
+            <span style="color: slategray;">Email:</span> duyplusdz@gmail.com
+        </footer>
+    </div>
+</body>
+</html>

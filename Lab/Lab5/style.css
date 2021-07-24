@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&subset=vietnamese&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+}
+
+html {
+    background: url(img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#text div {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #eee;
+    transition: all 0.12s ease-out;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#text div:hover {
+    transform: scale(1.1);
+    text-shadow: 3px 3px 3px #333;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+header {
+    background-color: steelblue;
+    position: relative;
+    padding: 25px;
+    color: cyan;
+    font-size: 20px;
+}
+
+main {
+    background-color: silver;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: darkcyan;
+    padding: 20px;
+    text-align: center;
+    color: deepskyblue;
+}
+
+b {
+    font-size: 18px;
+}
+
+input[type="button"] {
+    margin-top: 15px;
+    padding: 12px 25px;
+    color: white;
+    border: none;
+    background-color: cadetblue;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: cornflowerblue;
+}
+
+h2 {
+    margin: 10px auto;
+    color: aqua;
+    text-align: center;
+    font-size: 20px;
+}
+
+h3 {
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+span {
+    font-size: 17px;
+    color: white;
+}
+
+img {
+    padding: 25px;
+    width: 30%;
+}
+
+label {
+    color: white;
+}
+
+input[type="number"] {
+    padding: 7px;
+    background-color: #b6da9d;
+    border: none;
+}
+
+.button {
+    background-color: yellow;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    width: 5rem;
+    height: 44px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 7px 10px;
+    background-color: yellow;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aliceblue;
+    border: none;
+    color: blue;
+}
+
+button::after {
+    background-color: aliceblue;
+    border: none;
+}
+
+caption {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    color: blueviolet;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.number-input {
+    border: 2px solid #ddd;
+    display: inline-flex;
+}
+
+.number-input,
+.number-input * {
+    box-sizing: border-box;
+}
+
+.number-input button {
+    outline: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    width: 3rem;
+    height: 2.5rem;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 0.7rem;
+    height: 2px;
+    background-color: #212121;
+    transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type="number"] {
+    max-width: 7rem;
+    padding: 0.3rem;
+    border: solid #ddd;
+    border-width: 0 2px;
+    font-size: 1.3rem;
+    height: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.checkbox {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox {
+    height: 25px;
+    width: 0;
+    background-color: red;
+}
+
+.checkbox:hover input~.checkmark {
+    background-color: rgb(144, 98, 228);
+}
+
+.checkbox input:checked~.checkmark {
+    background-color: #2196f3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox input:checked~.checkmark:after {
+    display: block;
+}
+
+.checkbox .checkmark:after {
+    left: 8px;
+    top: 2px;
+    width: 6px;
+    height: 13px;
+    border: solid blue;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.abc{
+    background-color: aqua;
+    padding: 1px 10px;
+    margin-bottom: 10px;
+    color: #2196f3;
+    font-size: 22px;
+}
+.xyz {
+    background-color: snow;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 22px;
+}

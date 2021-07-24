@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Mảng</title>
+</head>
+<body onload="loichao()">
+    <input type="button" value="Hiển thị" onclick="img()"><br>
+    Nhập tên: <input type="text" onfocus="dongho(this)"><br>
+    <script>
+        function loichao(){
+            //alert("Hello world!");
+        }
+        function img(){
+            document.write("<img width='800px' src='https://nld.mediacdn.vn/thumb_w/540/2019/8/3/photo-1-15648212499661517922266.jpg'>")
+        }
+        function thaydoi(x){
+            x.style.background="yellow";
+            x.style.color="red";
+            x.style.borderradius="20px";
+        }
+        function onClickEvent(){
+            var t = setTimeout("alert('Hi');",3000); //trì hoãn thời gian hiển thị
+        }
+        function Xoa(t){
+            clearTimeout(t);
+        }
+        function dongho(){
+            var today = new Date();
+            var h = today.getHours;
+            var m = today.getMinutes;
+            var s = today.getSeconds;
+            document.write(h+" : "+m+" : "+s);
+        }
+        function setgio(){
+            var t = setTimeout(function(){dongho();},1000);
+        }
+    </script>
+    <input type="button" value="Hãy nhấn vào đây" onclick="onClickEvent();">
+    <input type="button" value="Xoá" onclick="Xoa();">
+</body>
+</html>

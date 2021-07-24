@@ -1,0 +1,97 @@
+.container1 {
+    width: 70%;
+    margin: auto;
+    border: 0.5px solid black;
+    background: darkkhaki!important;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    line-height: 36px;
+    text-align: center;
+}
+
+.row>div {
+    background: wheat;
+    width: 25%;
+    border: 0.5px solid black;
+}
+
+header,
+footer {
+    font-weight: bold;
+    color: crimson;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+}
+
+.head {
+    padding: 10px;
+}
+
+.head span {
+    float: right;
+    font-style: italic;
+}
+.btn {
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 13px;
+    padding: 15px 20px 30px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+}
+.lab {
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+}
+.lab:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+.button {
+    display: inline-block;
+    padding: 2rem 5rem;
+    border-radius: 10rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+.button:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(209, 155, 7);
+    border-radius: 10rem;
+    z-index: -2;
+}
+.button:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #414849;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bài 3</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-2" ng-app="app">
+    <div class="container h-100vh">
+        <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-9 align-self-center">
+                <div class="card">
+                    <div class="card-header bg-info text-white d-flex">
+                        <a class="text-white">Filter Ctrl</a>
+                        <a class="text-white ml-auto icon" onclick="naplai()"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                    <div class="card-body form-group" ng-controller="filterCtrl">
+                        <div class="p-2">Show: <input type="number" ng-model="limitRow"/></div>
+                        <table class="table table-bordered">
+                            <tr class="text-center">
+                            <tr>
+                                <td>Name</td>
+                                <td>Date of Birth</td>
+                                <td>Salary</td>
+                                <td>Gender</td>
+                                <td>Status</td>
+                            </tr>
+                            </tr>
+                            <tr ng-repeat="employee in employees | limitTo:limitRow">
+                                <td>{{employee.name | uppercase}}</td>
+                                <td>{{employee.birthDate | date:"dd/MM/yyyy"}}</td>
+                                <td>{{employee.salary | currency:"$"}}</td>
+                                <td>{{employee.gender | lowercase}}</td>
+                                <td>{{employee.status | status}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bai3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

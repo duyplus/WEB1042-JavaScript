@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&subset=vietnamese&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+}
+
+html {
+    background: url(../img/technology.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#text div {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #eee;
+    transition: all 0.12s ease-out;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#text div:hover {
+    transform: scale(1.1);
+    text-shadow: 3px 3px 3px #333;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+header {
+    position: relative;
+    padding: 25px;
+    color: cyan;
+    font-size: 20px;
+}
+
+main {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: darkcyan;
+    padding: 20px;
+    text-align: center;
+    color: deepskyblue;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    color: blueviolet;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+.game-board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #34495e;
+    color: white;
+    border: 6px solid #2c3e50;
+    border-radius: 10px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box {
+    border: 6px solid #2c3e50;
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

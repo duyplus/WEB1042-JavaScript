@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="text" style="text-align: center;"><div>Lưu biến vào SessionStorage</div></div>
+        </header>
+        <main>
+            <script>
+                var slx = sessionStorage.getItem('soLanXem');
+                if(slx==null){
+                    slx = 0;
+                }
+                slx++;
+                sessionStorage.setItem('soLanXem',slx);
+            </script>
+            <div class="count">
+                <script>document.write("Bạn đã xem trang này: <big>"+sessionStorage.getItem('soLanXem')+"</big> lần");</script>
+            </div>
+            <div>
+                <p style="color: aqua;"><i>Gõ phím F5 nạp lại trạng để xem kết quả</i></p>
+            </div>
+        </main>
+        <footer>
+            <span style="color: slategray;">Họ tên:</span> Nguyễn Hoàng Duy<br>
+            <span style="color: slategray;">Email:</span> duyplusdz@gmail.com
+        </footer>
+    </div>
+</body>
+</html>

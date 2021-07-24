@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="divdemo">
+    <input type="checkbox" name="test" id="" value="Cà Phê" />Cà Phê<br>
+    <input type="checkbox" name="test" id="" value="Cà Phê sữa" /> Cà Phê sữa<br>
+    <input type="checkbox" name="test" id="" value="Trà tắc" />Trà tắc<br>
+    <input type="checkbox" name="test" id="" value="Trà sữa" />Trà sữa<br>
+    <input type="radio" name="size" value="Lớn" checked>Lớn<br>
+    <input type="radio" name="size" value="Vừa" >Vừa<br>
+    <input type="radio" name="size" value="Nhỏ" >Nhỏ<br>
+    <button type="button" onclick="check()">Click me</button>
+    
+  </div>
+  <script>
+    function getSize(){
+      var x=document.getElementsByName("size");
+      var gt;
+      for(var i=0;i<x.length;i++){
+        if(x[i].checked==true){
+          gt=x[i].value;//vừa
+        }
+      }
+      return gt;
+    }
+    function check(){
+      // muốn lấy ra giá trị của input thì phải truy xuất được tới thẻ input
+      var x=document.getElementsByName("test");
+      console.log("input: ",x);
+      var dem=0;
+      for(var i=0;i<x.length;i++){
+        if(x[i].checked==true){
+          dem++;
+          var gt=x[i].value+" "+getSize();
+          var node=document.createElement("h1");
+          var textnode=document.createTextNode(gt);
+          node.appendChild(textnode);
+          var parent=document.getElementById("divdemo");
+          parent.appendChild(node);
+          node.style.color="red";
+        }
+      }
+      if(dem==0){
+        alert("Bạn phải chọn")
+      }
+    }
+  </script>
+</body>
+</html>

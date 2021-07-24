@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+  </head>
+  <body ng-app="myapp" ng-controller="hienthi">
+    <div id="form1">
+        <h2>ĐĂNG KÝ THÀNH VIÊN</h2>
+        <script src="style.js"></script>
+        <form name="frm" action="dangkythanhcong.html">
+            <p> <input ng-model="masv" name="masv" id="masv" type="text" minlength="1" maxlength="7" placeholder="Mã SV" required></p>
+            <em *ngIf="edited" ng-show="frm.masv.$touched && frm.masv.$invalid" class="text-danger h6">Nhập mã sv từ 1 đến 7 ký tự</em>
+            <p> <input ng-model="hoten" name="hoten" id="hoten" type="text" placeholder="Họ tên" required> </p>
+            <em *ngIf="edited" ng-show="frm.hoten.$touched && frm.hoten.$invalid" class="text-danger h6">Nhập họ tên từ 6 đến 30 ký tự</em>
+            <p>
+            <fieldset id="h1">
+                <legend>Giới tính</legend>
+                <input ng-model="gt" ng type="radio" name="gt" value="Nam"><label>Nam</label>
+                <input ng-model="gt" type="radio" name="gt" value="Nữ"><label>Nữ</label><br>
+            </fieldset>
+            </p>
+            <em ng-show="!gt" class="text-danger h6">Vui lòng chọn giới tính</em>
+            <p>
+            <fieldset id="h2">
+                <legend>Sở thích</legend>
+                <input ng-model="st1" type="checkbox" name="st"><label>Nhìn mưa rơi</label>
+                <input ng-model="st2" type="checkbox" name="st"><label>Nghe chim hót</label>
+                <input ng-model="st3" type="checkbox" name="st"><label>Ngắm mây bay</label><br>
+            </fieldset>
+            </p>
+            <em ng-show="!st1 && !st2 && !st3" class="text-danger h6">Vui lòng chọn sở thích</em>
+            <p>
+                <select ng-model="tinh" name="tinh" id="tinh">
+                    <option value="0">Chọn tỉnh</option>
+                    <option value="1">Hồ Chí Minh</option>
+                    <option value="2">Hà Nội</option>
+                    <option value="3">Đà Nẵng</option>
+                </select>
+            </p>
+            <em ng-show="!tinh || tinh == 0" class="text-danger h6">Vui lòng chọn tỉnh</em>
+            <div id="thongbaoloi"></div>
+            <p>
+                <button type="submit" id="btndangky">ĐĂNG KÝ</button>
+            </p>
+        </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

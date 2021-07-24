@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+<head>
+    <title>Bài 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-2" ng-controller="myController">
+    <div class="container h-100vh">
+        <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-9 align-self-center">
+                <div class="card" style="border: none;">
+                    <div class="card-header bg-info text-white d-flex text-center display-5">
+                        <a class="text-white">Thông tin cá nhân</a>
+                        <a class="text-white ml-auto icon" onclick="naplai()"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-row">
+                            <div class="form-group col-12">
+                                <label class="text-danger">First Name</label>
+                                <input ng-model="employee.FirstName" type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-12">
+                                <label class="text-danger">Last Name</label>
+                                <input ng-model="employee.LastName" type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-12">
+                                <label class="text-danger">Gender</label>
+                                <input ng-model="employee.Gender" type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="text-primary">Hiển thị</label>
+                            <fieldset class="border border-secondary p-3">
+                                First Name: {{employee.FirstName}}<br />
+                                Last Name: {{employee.LastName}}<br />
+                                Gender: {{employee.Gender}}<br />
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bai1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

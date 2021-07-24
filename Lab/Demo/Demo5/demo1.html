@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Tạo 1 đối tượng
+        var sinhvien={
+            maso:"PS18293",
+            ten:"Nguyễn Hoàng Duy",
+            nam:1999,
+            diem:{
+                toan:7.5,
+                ly:9,
+                hoa:10,
+            },
+            // phương thức
+            tinhTB:function(){
+                var diem1 = this.diem.toan;
+                var diem2 = this.diem.ly;
+                var diem3 = this.diem.hoa;
+                var tb = (diem1+diem2+diem3)/3;
+                return tb;
+            }
+        }
+        //Gọi thuộc tính đối tượng
+        document.write("Mã số: "+sinhvien.maso+"<br>");
+        document.write("Tên: "+sinhvien.ten+"<br>");
+        document.write("Điểm TB: "+sinhvien.tinhTB().toFixed(2));
+        
+        document.write("<br>=======================================<br>");
+        var sinhvien1 = new Object();
+        sinhvien1.ms = "PS18293";
+        sinhvien1.ht = "Nguyễn Hoàng Duy";
+        sinhvien1.diemthi = {
+            csdl: 8,
+            hdt: 9,
+            js: 10
+        };
+        sinhvien1.tinhdiem = function(){
+            var cs = sinhvien1.diemthi.csdl;
+            var dt = sinhvien1.diemthi.hdt;
+            var jv = sinhvien1.diemthi.js;
+            var tinh = (cs+dt+jv)/3;
+            return tinh;
+        };
+        document.write("Mã số: "+sinhvien1.ms+"<br>");
+        document.write("Tên: "+sinhvien1.ht+"<br>");
+        document.write("Điểm thi: "+sinhvien1.tinhdiem().toFixed(2));
+
+        document.write("<br>============== Tạo lớp ==============<br>");
+        function hoa(tenhoa,mausac){
+            //khai báo
+            this.tenhoa = tenhoa;
+            this.mausac = mausac;
+            this.toahuong = function(){
+                document.write("Tôi có màu "+this.mausac+", tôi có hương thơm.");
+            }
+        }
+        // Tạo các đối tượng
+        // Cách 1
+        hoa["x"] = new hoa("hoa lài","màu trắng");
+        hoa["x1"] = new hoa("hoa ly","màu hồng");
+        hoa["x2"] = new hoa("hoa hồng","màu đỏ");
+        console.log(hoa["x"]);
+        console.log(hoa["x"].toahuong());
+        // Cách 2
+        document.write("<br>");
+        var hoa1 = new hoa("hoa ly","màu hồng");
+        hoa1.toahuong();
+    </script>
+</body>
+</html>

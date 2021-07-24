@@ -1,0 +1,14 @@
+[data-toggle="model"]{
+    padding: 15px 25px;
+    border: 2px solid #333;
+    background-color: seagreen;
+    color: white;
+    text-transform: uppercase;
+}
+input[type=button]{
+    padding: 15px 25px;
+    border: 2px solid #333;
+    background-color: seagreen;
+    color: white;
+    text-transform: uppercase;
+}

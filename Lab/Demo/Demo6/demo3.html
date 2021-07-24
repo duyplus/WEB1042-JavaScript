@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ptb2(a,b,c){
+            this.a = parseFloat(prompt("Nhập a:"));
+            this.b = parseFloat(prompt("Nhập b:"));
+            this.c = parseFloat(prompt("Nhập c:"));
+            this.a = a1;
+            this.b = b1;
+            this.c = c1;
+            this.giaipt = function(){
+                if(this.a == 0){
+                    document.write("Không phải là pt bậc 2.");
+                }else{
+                    var delta = Math.pow(this.b)-4*this.a*this.c;
+                    if(delta < 0){
+                        document.write("Phương trình vô nghiệm.");
+                    }else if(delta == 0){
+                        var x = -(this.b)/2*this.a;
+                        document.write("Phương trình có nghiệm kép"+x);
+                    }else{
+                        var x1 = (-this.b-Math.sqrt(delta))/(2*this.a);
+                        var x2 = (-this.b+Math.sqrt(delta))/(2*this.a);
+                        document.write("Phương trình có 2 nghiệm x<sub>1</sub>"+x1+"x<sub>2</sub>"+x2+"<br>");
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

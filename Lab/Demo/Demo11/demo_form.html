@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container h-100vh">
+        <div class="row row h-100 align-items-center justify-content-center">
+            <div class="col align-self-center">
+                <div class="card">
+                    <div class="card-header text-center display-4">Đăng ký tài khoản</div>
+                    <div class="card-body">
+                        <form name="myform">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label>Mã sinh viên</label>
+                                    <input type="text" class="form-control" name="masv" placeholder="PS..."><span id="code"></span><br>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>Họ và tên</label>
+                                    <input type="text" class="form-control" name="tensv" placeholder="Họ tên..."><span id="ten"></span><br>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" name="email" placeholder="Email..."><span id="emailsv"></span><br>
+                                </div>
+                                <div class="form-group col-md-6" style="padding-left: 1.5rem;">
+                                    <label>Giới tính</label><br>
+                                    <div class="form-check form-check-inline" style="padding: 0.5rem 0;">
+                                        <input class="form-check-input" type="radio" name="gender" value="1">
+                                        <label class="form-check-label">Nam</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="gender" value="2">
+                                        <label class="form-check-label">Nữ</label>
+                                    </div>
+                                    <br><span id="genders"></span><br>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label>Sở thích</label><br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" name="fav" value="1">
+                                        <label class="form-check-label">Đọc sách</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" name="fav" value="2">
+                                        <label class="form-check-label">Du lịch</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" name="fav" value="3">
+                                        <label class="form-check-label">Âm nhạc</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" name="fav" value="4">
+                                        <label class="form-check-label">Ẩm thực</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" name="fav" value="5">
+                                        <label class="form-check-label">Khác</label>
+                                    </div>
+                                    <br><span id="favs"></span><br>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="inputState">Quốc gia</label>
+                                    <select id="country" name="box" class="form-control">
+                                        <option value="0">Chọn quốc tịch</option>
+                                        <option value="1">Việt Nam</option>
+                                        <option value="2">Mỹ</option>
+                                        <option value="3">Anh</option>
+                                    </select><span id="boxf"></span><br>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Ghi chú</label>
+                                <textarea class="form-control" name="textarea2" id="textArea" rows="3" placeholder="Nội dung..."></textarea>
+                                <span id="textareas"></span><br>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block" onclick="return kiemtra()">Đăng ký</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="demo_form.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

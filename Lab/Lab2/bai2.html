@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <script>
+                var n = new Date();
+                var gio = n.getHours();
+                if(gio<12){
+                    document.write("Chào buổi sáng!");
+                }else if(gio>12 && gio<17){
+                    document.write("Chào buổi chiều");
+                }else{
+                    document.write("Chào buổi tối");
+                }
+            </script>
+        </header>
+        <main>
+            <div id="text"><div>JAVASCRIPT CÓ THỂ LÀM GÌ?</div></div>
+        </main>
+        <footer>
+            <span style="color: slategray;">Họ tên:</span> Nguyễn Hoàng Duy<br>
+            <span style="color: slategray;">Email:</span> duyplusdz@gmail.com
+        </footer>
+    </div>
+</body>
+</html>

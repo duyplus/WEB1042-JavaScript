@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Hoàng Duy - PS18293</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="text">
+                <div>Xem ngày,tháng,năm sinh</div>
+            </div>
+        </header>
+        <main style="text-align: left">
+            <script src="js/bai4.js"></script>
+            <table>
+                <thead>
+                    <th><label>Ngày</label></th>
+                    <th><label>Tháng</label></th>
+                    <th><label>Năm</label></th>
+                </thead>
+                <tbody>
+                    <td>
+                        <div class="select">
+                            <select name="ngay" id="ngay">
+                                <option><script>htNgay(22);</script></option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="select">
+                            <select name="thang" id="thang">
+                                <option><script>htThang(8);</script></option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="select">
+                            <select name="nam" id="nam">
+                                <option><script>htNam(1999);</script></option>
+                            </select>
+                        </div>
+                    </td>
+                </tbody>
+            </table>
+        </main>
+        <footer><div><a style="color: white;text-decoration: none;" href="index.html">Quay lại Menu</a></div></footer>
+    </div>
+</body>
+</html>

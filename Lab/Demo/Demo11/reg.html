@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="Description" content="Enter your description here" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Title</title>
+</head>
+
+<body>
+	<div class="container">
+		<h2>THÔNG TIN ĐĂNG KÝ</h2>
+		<form class="form-horizontal" method="post" action="#" name="register">
+			<div class="row">
+				<div class="col-sm-2">
+					<label for="masv">Mã sinh viên(*)</label>
+				</div>
+				<div class="col-sm-10">
+					<input class="text" type="text" name="masv" id="masv" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2">
+					<label for="hoten">Họ và tên</label>
+				</div>
+				<div class="col-sm-10">
+					<input class="text" type="text" name="hoten" id="hoten" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2">
+					<label for="email">Email(*)</label>
+				</div>
+				<div class="col-sm-10">
+					<input class="text" type="text" name="email" id="email" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2">
+					<label for="gender">Giới tính</label>
+				</div>
+				<div class="col-sm-10">
+					<input type="radio" name="gender" id="gender" value="1" /> Nam
+					<input type="radio" name="gender" id="gender" value="2" /> Nữ
+                </div>
+			</div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Default radio
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Default checked radio
+                </label>
+              </div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-10">
+					<input type="submit" name="action" id="submit" value="Đăng ký" />
+				</div>
+			</div>
+		</form>
+	</div>
+	<script src="reg.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

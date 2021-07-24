@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Hoàng Duy - PS18293</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <script>
+            var ht = prompt("Bạn tên gì?");
+            var ns = prompt("Bạn năm sinh nào?");
+            var t = tinhtuoi(ns);
+
+            function tinhtuoi(){
+                var d = new Date();
+                var n = d.getFullYear();
+                return n-ns;
+            }
+        </script>
+        <div class="info"><h2>Thông tin cá nhân</h2></div>
+        <div class="list">
+            <p>Họ và tên: <span id="ht"></span></p>
+            <p>Năm sinh: <span id="ns"></span></p>
+            <p>Tuổi: <span id="t"></span></p>
+        </div>
+        <script>
+            document.getElementById("ht").innerHTML=ht;
+            document.getElementById("ns").innerHTML=ns;
+            document.getElementById("t").innerHTML=t;
+        </script>
+    </div>
+</body>
+</html>

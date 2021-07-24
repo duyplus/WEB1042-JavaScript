@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
+</head>
+<body>
+<!-- 
+  Phương thức addEventListener () gắn một trình xử lý sự kiện 
+  vào phần tử được chỉ định.
+
+Phương thức addEventListener () gắn một trình xử lý sự kiện 
+vào một phần tử mà không ghi đè các trình xử lý sự kiện hiện có.
+
+Bạn có thể thêm nhiều trình xử lý sự kiện vào một phần tử.
+
+Bạn có thể thêm nhiều trình xử lý sự kiện cùng loại vào một phần tử,
+ tức là hai sự kiện "nhấp chuột".
+
+Bạn có thể thêm trình xử lý sự kiện vào bất kỳ đối tượng DOM nào 
+không chỉ các phần tử HTML. tức là đối tượng cửa sổ.
+
+Phương thức addEventListener () 
+giúp bạn dễ dàng kiểm soát cách sự kiện phản ứng với hiện tượng nổi bọt.
+
+Khi sử dụng phương thức addEventListener (), 
+JavaScript được tách biệt khỏi đánh dấu HTML, để dễ đọc hơn và cho phép bạn thêm trình xử lý sự kiện ngay cả khi bạn không kiểm soát đánh dấu HTML.
+
+Bạn có thể dễ dàng loại bỏ trình nghe sự kiện bằng cách sử dụng phương thức removeEventListener ().
+element.addEventListener(event, function, useCapture);
+ 
+  <button id="myBtn">Try it</button>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", function() {
+  alert("Hello World!");*/
+//   document.getElementById("myBtn").addEventListener("click", myFunction);
+
+// function myFunction() {
+//   alert ("Hello World!");
+// }
+});
+</script>
+ lắng nghe nhiều sự kiện
+<button id="myBtn">Try it</button>
+
+<script>
+var x = document.getElementById("myBtn");
+x.addEventListener("click", myFunction);
+x.addEventListener("click", someOtherFunction);
+
+function myFunction() {
+  alert ("Hello World!");
+}
+
+function someOtherFunction() {
+  alert ("This function was also executed!");
+}
+</script>
+ -->
+ <!-- 
+   Bài 2: lắng nghe 3 sự kiện
+   <button id="myBtn">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("myBtn");
+x.addEventListener("mouseover", myFunction);
+x.addEventListener("click", mySecondFunction);
+x.addEventListener("mouseout", myThirdFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML += "Moused over!<br>";
+}
+
+function mySecondFunction() {
+  document.getElementById("demo").innerHTML += "Clicked!<br>";
+}
+
+function myThirdFunction() {
+  document.getElementById("demo").innerHTML += "Moused out!<br>";
+}
+</script>
+  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

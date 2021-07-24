@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body ng-app="myapp" ng-controller="hienthi" class="p-3" style="background: none;">
+    <form name="frm1" class="col-6 mx-auto border border-primary" style="background-color:white;">
+        <h4 class="m-0 p-2 text-center title">TÍNH DIỆN TÍCH CHU VI HÌNH CHỮ NHẬT</h4>
+        <div class="form-group p-2 m-0">
+            <label> Chiều Dài</label>
+            <input type="text" name="cd" class="form-control bg-warning text-white" ng-model="cd">
+        </div>
+        <div class="form-group p-2 m-0">
+            <label>Chiều Rộng</label>
+            <input type="text" name="cr" class="form-control bg-warning text-white" ng-model="cr">
+        </div>
+        <div class="form-group p-2 m-0">
+            <label> Chu Vi</label>
+            <span class="form-control text-white bg-danger">{{cv}}</span>
+        </div>
+        <div class="form-group p-2 m-0">
+            <label> Diện tích</label>
+            <span class="form-control text-white bg-danger">{{dt}}</span>
+        </div>
+        <div class="form-group p-2 m-0">
+            <div id="loi"></div>
+            <button class="btn btn-primary" ng-click="tinh()">Tính Toán</button>
+        </div>
+    </form>
+    <script src="js/bai2.js"></script>
+</body>
+</html>

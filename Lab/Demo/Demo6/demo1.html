@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // window.screen chứa thông tin về màng hình user
+        /*
+            screen.width
+            screen.height
+            screen.availHeight
+            screen.availWidth
+            screen.colorDepth
+            screen.pixelDepth
+        */
+        document.write(window.screen.width+"<br>");
+        document.write(window.screen.height+"<br>");
+        document.write(window.screen.availWidth+"<br>");
+        document.write(window.screen.availHeight+"<br>");
+        document.write(window.screen.colorDepth+"<br>");
+        document.write(window.screen.pixelDepth+"<br>");
+
+        // Location để lấy địa chỉ trang hiện tại và chuyển hướng đến trang khác
+        /*
+            location.href --> trả về địa chỉ URL của trang hiện tại
+            location.hostname --> trả về tên miền
+            location.pathname --> trả về tên đường dẫn
+            location.protocal --> trả về giao thức như http hoặc https
+            location..assign() --> trả về 1 tài liệu mới hay trang mới
+        */
+        document.write(window.location.href+"<br>");
+        document.write(window.location.hostname+"<br>");
+        document.write(window.location.pathname+"<br>");
+        document.write(window.location.protocol+"<br>");
+        // document.write(window.location.assign("https://www.w3schools.com")+"<br>");
+
+        // window history có thể không cần tiền tố window
+        /*
+            history.back()
+            history.forward();
+        */
+        document.write(history.back());
+        function goback(){
+            window.history.back();
+        }
+    </script>
+    <input type="button" value="Onclick" onclick="goback();">
+</body>
+</html>

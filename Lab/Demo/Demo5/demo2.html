@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var library = [
+            {
+                author: "Bill Gates",
+                title: "The Road Ahead",
+                readingStatus: true
+            },
+            {
+                author: "Stive Jobs",
+                title: "Walter Isaacson",
+                readingStatus: true
+            },
+            {
+                author: "Suzanne Collins",
+                title: "Mockingjay: The Final",
+                readingStatus: false
+            }
+        ];
+        for(var i=0;library.length;i++){
+            document.write(library[i].author+"<br>");
+        }
+    </script>
+</body>
+</html>

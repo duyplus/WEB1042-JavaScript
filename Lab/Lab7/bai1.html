@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Hoàng Duy - PS18293</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-app="b1" style="background:none;">
+    <div ng-controller="hienthi">
+        <div class="title col-6 text-center">Thông tin sinh viên</div>
+        <div class="col-6 mx-auto border border-primary bg-white">
+            <script src="js/bai1.js"></script>
+            <div>
+                <img class="rounded mx-auto d-block p-2" src="img/{{photo}}" style="width: 55%;">
+            </div>
+            <div class="text-center p-2">
+                <ul class="list-group">
+                    <li class="list-group-item" style="border:none;padding:.25rem;"><span>Họ tên: </span><b>{{hoten}}</b></li>
+                    <li class="list-group-item" style="border:none;padding:.25rem;"><span>Ngày sinh: </span><b>{{ngaysinh}}</b></li>
+                    <li class="list-group-item" style="border:none;padding:.25rem;"><span>Giới tính: </span><b>{{gender}}</b></li>
+                    <li class="list-group-item" style="border:none;padding:.25rem;"><span>Điểm: </span><b>{{mark}}</b></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Buoi7.css">
+  <title>Document</title>
+</head>
+<body>
+    <script>
+        function myfuntion(){
+            alert("Hello world!");
+        }
+    var x = document.getElementById("btn");
+    x = addEventListener("mouseover", bgChange);
+    x = addEventListener("click", myfuntion);
+    x = addEventListener("mouseout", bgChange1);
+    var x1 = document.querySelector('button');
+    function bgChange(val) {
+        var color = val.target.style.color = 'blue';
+    }
+    function bgChange1(val) {
+        var color = val.target.style.color = 'yellow';
+    }
+    </script>
+    <button id="btn">Try it</button>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1.4</title>
+    <script src="bai2.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <th colspan="2">Thông tin cá nhân</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Họ tên:</td>
+                <td style="width: 280px;"><b id="hoten"><script>document.write(hoten);</script></b></td>
+            </tr>
+            <tr>
+                <td>Mã SV:</td>
+                <td><b id="masv"><script>document.write(masv);</script></b></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh:</td>
+                <td><b id="ns"><script>document.getElementById("ns").innerHTML=ngaysinh;</script></b></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

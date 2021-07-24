@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var xe = [150,40,300];
+        var tinhthue=[];
+        console.log(xe);
+        function tinhThue(){
+            var thue;
+            var tongthue = 0;
+            var tongtien = 0;
+            for(var i=0;i<xe.length;i++){
+                if(xe[i]<100){
+                    thue = xe[i]*0.2;
+                }else if(xe[i]>200){
+                    thue = xe[i]*0.1;
+                }else{
+                    thue = xe[i]*0.15;
+                }
+                tinhthue.push(thue);
+                tongthue = tongthue+thue;
+                tongtien += xe[i]+thue;
+            }
+            console.log("Thuế từng xe: "+tinhthue);
+            console.log("Tổng thuế: "+tongthue);
+            console.log("Tổng tiền: "+tongtien);
+        }
+        // gọi hàm
+        tinhThue();
+    </script>
+</body>
+</html>

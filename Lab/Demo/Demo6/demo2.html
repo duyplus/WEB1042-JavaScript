@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var pt = new Object;
+        pt.a = parseFloat(prompt("Nhập a:"));
+        pt.b = parseFloat(prompt("Nhập b:"));
+        pt.c = parseFloat(prompt("Nhập c:"));
+        pt.giaipt = function(){
+            if(this.a == 0){
+                document.write("Không phải là pt bậc 2.");
+            }else{
+                var delta = Math.pow(this.b,2)-4*this.a*this.c;
+                if(delta < 0){
+                    document.write("Phương trình vô nghiệm.");
+                }else if(delta == 0){
+                    var x = -this.b/(2*this.a);
+                    document.write("Phương trình có nghiệm kép"+x);
+                }else{
+                    var x1 = (-this.b-Math.sqrt(delta))/(2*this.a);
+                    var x2 = (-this.b+Math.sqrt(delta))/(2*this.a);
+                    document.write("Phương trình có 2 nghiệm<br> x1 = "+x1+"<br>x2 = "+x2+"<br>");
+                }
+            }
+        }
+        // hiển thị kết quả
+        pt.giaipt();
+        document.write(pt.a+"x<sup>2</sup> + "+pt.b+"x +"+pt.c+" = 0");
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Hoàng Duy - PS18293</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/bai2.js"></script>
+</head>
+<body style="width: 100%;">
+    <div class="container">
+        <header>
+            <div id="text"><div>Shop mua sắm</div></div>
+        </header>
+        <main style="background-color: aliceblue;">
+            <div class="form">
+                <div class="title">Đặt hàng</div>
+                <form>
+                    <p><label>Sản phẩm</label><input id="tensp" placeholder="Nhập tên sản phẩm"></p>
+                    <p><label>Loại</label><select id="loai" style="width: 72.3%;">
+                            <option value="">Chọn loại sản phẩm</option>
+                            <option value="dt">Điện thoại</option>
+                            <option value="mt">Máy tính</option>
+                        </select>
+                    </p>
+                    <p><label>Đơn giá</label><input id="gia" placeholder="Nhập đơn giá"></p>
+                    <p><label>Nơi nhận hàng</label>
+                        <input type="radio" name="diachi" onclick="hienthi(false)"> Nội thành
+                        <input type="radio" name="diachi" style="margin-left: 30px;" onclick="hienthi(true)"> Ngoại thành
+                    </p>
+                    <p id="vc"><label>Phí vận chuyển</label><input id="phi_vc" value="100000"></p>
+                    <p><label><button type="button" onclick="return kiemtra()">Đặt mua</button></label></p>
+                    <hr>
+                    <div id="kq"></div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div id="text"><div style="font-size: 16px;">Nguyễn Hoàng Duy - PS18293</div></div>
+        </footer>
+    </div>
+</body>
+</html>

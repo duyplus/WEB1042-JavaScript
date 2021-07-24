@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    [data-title]
+    {
+      color: brown;
+    }
+  </style>
+</head>
+<body>
+  <div id="demoid">
+    <p id="demo">Demo1</p>
+    <p class="demo">Class demo1</p>
+    <p class="demo">Class demo2</p>
+    <p class="demo" data-title='model1'>Class demo3</p>
+    <p class="demo" data-title='model2'>Class demo4</p>
+  </div>
+  <script>
+    var demo=document.querySelectorAll("[data-title]");
+    console.log(demo.getAttribute);
+    var a=Array.from(demo);
+    var tmp='';
+    for(var i=0;i<a.length;i++)
+    {
+      //console.log("thuoc tinh: ",a[i].getAttribute("data-title"));
+      tmp=tmp+a[i].getAttribute("data-title")+" ";
+    }
+    console.log("tmp: "+tmp);
+    document.getElementById("demo").setAttribute("data-title",tmp.trim);
+   // document.getElementsByClassName("demo")[0].setAttribute("data-title",tmp.trim);
+  </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Vòng Lặp</title>
+</head>
+<body>
+    <script>
+        var a,b;
+        function kiemtra(a,b){
+            do{
+                a = parseInt(prompt("Nhập số a:"));
+                if(isNaN(a)==true){
+                    alert("Nhập sai a rồi vui lòng nhập lại");
+                }
+            }while(isNaN(a)==true);
+            do{
+                b = parseInt(prompt("Nhập số b:"));
+                if(isNaN(b)==true){
+                    alert("Nhập sai b rồi vui lòng nhập lại");
+                }
+            }while(isNaN(b)==true);
+        }
+        document.write(kiemtra(a));
+        document.write(kiemtra(b));
+        var tong = a+b;
+        document.write("Tổng là "+tong);
+        
+        document.write("<br/>Vòng lặp For<br/>");
+        for(var i=0;i<10;i++){
+            document.write(i+"</br>");
+        }
+    </script>
+</body>
+</html>

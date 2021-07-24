@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bài 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-2" ng-app="app">
+    <div class="container h-100vh">
+        <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-9 align-self-center">
+                <div class="card">
+                    <div class="card-header bg-info text-white d-flex">
+                        <a class="text-white">Ôn tập</a>
+                        <a class="text-white ml-auto icon" onclick="naplai()"><i class="fas fa-sync-alt"></i></a>
+                    </div>
+                    <div class="form-group p-5">
+                        <div class="text-center border">
+                            <div id="dongho" class="ml-auto icon" onclick="dongho()">Đồng hồ</div>
+                            <div>
+                                <button type="button" class="btn btn-success" onclick="start()">Start</button>
+                                <button type="button" class="btn btn-danger" onclick="stop()">Stop</button>
+                            </div>
+                        </div>
+                        <div class="p-5 form-group text-center">
+                            <fieldset class="border">
+                                <select id="select" class="form-group form-control-sm">
+                                    <option class="h6" value="0" selected="">Chọn bài học</option>
+                                    <option class="h6" value="https://longnv.name.vn/lap-trinh-javascript/javascript-la-gi">Bài 1: Javascript là gì</option>
+                                    <option class="h6" value="https://longnv.name.vn/lap-trinh-javascript/bien-kieu-toan-tu-va-bieu-thuc-trong-javascript">Bài 2: Biến, toán tử và biểu thức</option>
+                                    <option class="h6" value="https://longnv.name.vn/lap-trinh-javascript/cau-truc-dieu-khien-trong-javacript">Bài 3: Cấu Trúc Điều Khiển, Hàm và Biểu Thức</option>
+                                    <option class="h6" value="https://longnv.name.vn/lap-trinh-javascript/lap-trinh-doi-tuong-trong-javascript-va-mo-hinh-bom">Bài 4: Lập trình đối tượng và mô hình BOM</option>
+                                    <option class="h6" value="https://longnv.name.vn/lap-trinh-javascript/mo-hinh-dom-trong-javascript">Bài 5: Mô hình DOM trong javascript</option>
+                                    <option class="h6" value="https://longnv.name.vn/lap-trinh-javascript/kiem-tra-du-lieu-trong-form-voi-javascript">Bài 6: Validate Form</option>
+                                    <option class="h6" value="https://longnv.name.vn/lap-trinh-javascript/gioi-thieu-ve-javascript-framework">Bài 7: Giới Thiệu về Javascript Framework</option>
+                                    <option class="h6" value="https://longnv.name.vn/lap-trinh-javascript/su-dung-angularjs">Bài 8: Tập tành sử dụng angularJS</option>
+                                </select>
+                                <button type="button" class="btn btn-primary" onclick="xembaihoc()">Xem bài học</button>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bai2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

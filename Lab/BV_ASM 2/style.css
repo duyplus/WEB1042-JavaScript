@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&subset=vietnamese&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    background: none;
+}
+html { 
+    background-image: linear-gradient(to right top, #2f79e7, #00a2eb, #00bec8, #69d1a3, #c8dd99);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.title {
+    background-color: #00a2eb;
+    color: white;
+    margin: 0 auto;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    padding: 1rem!important;
+    font-size: 1.5rem;
+}
+.border {
+    border: solid 1px blue !important;
+    padding: 10px;
+}
+#border {
+    border: solid 1px black;
+    padding: 10px;
+}
+label {
+    display: inline-block;
+    margin-bottom: .1rem;
+}
+.form-group {
+    margin-bottom: .8rem;
+}
+form{
+    margin: 0 auto;
+    background-color: white;
+}
+.text-primary{
+    font-weight: bold;
+}
+.card{
+    border: none;
+}
+.icon{
+    cursor: pointer;
+}
+span{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+ul {
+    list-style: none;
+}
+ul li::before {
+    content: "";
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fb-heart.gif);
+    background-size: contain;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    position: relative;
+    top: 0.1rem;
+    margin-right: 0.2rem;
+}
+.form-group>label {
+    font-weight: bold;
+}
+.title {
+    background-color: #17a2b8;
+    color: white;
+    margin: 0 auto;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    padding: 1rem!important;
+    font-size: 1.5rem;
+}
+.border {
+    border: solid 1px blue !important;
+    padding: 10px;
+}
+#border {
+    border: solid 1px black;
+    padding: 10px;
+}
+label {
+    display: inline-block;
+    margin-bottom: .1rem;
+}
+.form-group {
+    margin-bottom: .8rem;
+}
+form{
+    margin: 0 auto;
+    background-color: white;
+}
+input[type=text]{
+    background-color: #007bff!important;
+}
+input[type=number]{
+    background-color: #ffc107!important;
+}
+select{
+    background-color: #dc3545!important;
+}
+.text-primary{
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Hoàng Duy - PS18293</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="text"><div>Tính tiền sản phẩm</div></div>
+        </header>
+        <main>
+            <script src="js/bai1.js"></script>
+            <h2 id="ten">IPHONE 12 PRO MAX 2020</h2>
+            <img src="img/hinh-iphone.png" alt=""><br>
+            <label id="pro" data-price="1399">Số lượng</label><br>
+            <div class="number-input">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+                <input type="number" id="qty" value="1" min="1">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+              </div>
+            <div><button class="button" onclick="hienthi()">Tính tiền</button></div>
+            <hr>
+            <h3>Name: <span id="name">?</span></h3>
+            <h3>Amount: <span id="amount">?</span></h3>
+        </main>
+        <footer>
+            <div id="text"><div style="font-size: 16px;">Nguyễn Hoàng Duy - PS18293</div></div>
+        </footer>
+    </div>
+</body>
+</html>

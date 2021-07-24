@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&subset=vietnamese&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 10px auto;
+}
+#text div {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #eee;
+    transition: all 0.12s ease-out;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#text div:hover {
+    transform: scale(1.1);
+    text-shadow: 3px 3px 3px #333;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+header {
+    background-color: darkolivegreen;
+    position: relative;
+    padding: 35px;
+    color: cyan;
+    font-size: 20px;
+}
+main{
+    background-color: darkseagreen;
+    min-height: 100px;
+    padding: 60px 50px 50px 50px;
+    text-align: center;
+}
+footer {
+    background: darkslategray;
+    padding: 20px;
+    text-align: center;
+    color: deepskyblue;
+}
+#chao {
+    color: deeppink;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+.info{
+    text-align: center;
+    padding: 10px;
+    background-color: yellowgreen;
+    border-radius: 10px 10px 0 0;
+    color: azure;
+    text-transform: uppercase;
+}
+.list{
+    background-color: coral;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+p{
+    color: rgb(0, 40, 119);
+}
+#ht,#ns,#t{
+    color: cyan;
+}
+big{
+    color: purple;
+    font-weight: bold;
+    font-size: 22px;
+}
+big:hover{
+    color: blue;
+}
+.count{
+    color: yellow;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&subset=vietnamese&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    background: url(https://i.imgur.com/mvcHY4E.gif) no-repeat fixed;
+    background-size: 100% 100%;
+}
+#text div {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #eee;
+    transition: all 0.12s ease-out;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#text div:hover {
+    transform: scale(1.1);
+    text-shadow: 3px 3px 3px #333;
+}
+.container {
+    width: 65%;
+    margin: auto;
+    border-radius: 10px;
+}
+header {
+    background-color: crimson;
+    position: relative;
+    padding: 35px;
+    color: cyan;
+    font-size: 20px;
+}
+main{
+    background-color: darkslategray;
+    padding: 50px;
+    text-align: center;
+}
+footer {
+    background-color: darkmagenta;
+    padding: 20px;
+    text-align: center;
+    color: deepskyblue;
+}
+b{
+    font-size: 18px;
+}
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+.button:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0cf;
+    border-radius: 10rem;
+    z-index: -2;
+}
+.button:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #008fb3;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+.button:hover {
+    color: #fff;
+}
+.button:hover:before {
+    width: 100%;
+}
+#pt{
+    color: orange;
+    font-size: 17px;
+    font-weight: bold;
+}
+h2{
+    margin-top: 25px;
+    color: yellow;
+}
+h3{
+    margin: 10px auto;
+    color: aqua;
+    text-align: center;
+    font-size: 17px;
+}
+span{
+    font-size: 17px;
+    color: white;
+}
+#x,#x1,#x2{
+    font-weight: bold;
+    color: chartreuse;
+    letter-spacing: 1.5px;
+}
+img{
+    width: 51.2%;
+    box-shadow: 0 0 70px red;
+}

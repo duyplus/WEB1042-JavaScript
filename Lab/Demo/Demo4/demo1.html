@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arraymang = ['so1','so2','so3'];
+        console.log(arraymang);
+        // Thêm phần tử vào đầu mảng dùng unshift(giá trị ...)
+        console.log("unshift: ",arraymang.unshift('so4','so5','so6'));
+        // Thêm phần tử vào cuối mảng dùng push(giá trị ...)
+        console.log("push: ",arraymang.push('so7','so8','so9'));
+        // Xoá phần tử cuối cùng dùng pop()
+        console.log("pop",arraymang.pop());
+        // Xoá phần tử đầu tiên dùng shift()
+        console.log("pop",arraymang.shift());
+        // Kiểm tra phần tử có tồn tại hay không dùng indexOf
+        // Nếu tìm thấy thì trả về vị trí phần tử đó, nếu không trả về -1
+        // indexOf chỉ trả về phần tử đầu tiên mà nó tìm thấy
+        // indexOf(phần tử tìm kiếm) ==> trả về là number
+        console.log("indexOf: ",arraymang.indexOf('so7'));
+        console.log("lastindexOf: ",arraymang.lastIndexOf('so7'));
+    </script>
+</body>
+</html>
